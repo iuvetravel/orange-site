@@ -34,7 +34,9 @@ header {
 .hero-bg img {
   position: relative;
   width: 200px;
+  padding: 0;
   height: auto;
+  margin-top: 0;
 }
 
 section {
@@ -203,6 +205,10 @@ p {
   }
 }
 
+input:focus {
+  outline: none;
+}
+
 @media (min-width: 905px) {
   .hero-bg {
     text-align: left;
@@ -241,6 +247,11 @@ p {
     width: 30%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
+
+  input:focus {
+    outline: none;
+  }
+
   .hero-bg p {
     margin-bottom: 0;
   }
