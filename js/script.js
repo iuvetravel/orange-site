@@ -4,4 +4,5 @@ let overlay = document.getElementById("overlay");
 btn.addEventListener("click", () => {
   overlay.style.display = "grid";
   overlay.classList.add("animate-overlay");
+  setTimeout("location.reload(true);", 3001);
 });
