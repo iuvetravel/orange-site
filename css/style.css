@@ -31,6 +31,12 @@ header {
   font-size: 1.2rem;
 }
 
+.hero-bg img {
+  position: relative;
+  width: 200px;
+  height: auto;
+}
+
 section {
   margin: 0 1em;
 }
